@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "esbuild": "^0.15.14"
+  },
+  "scripts": {
+    "build": "esbuild greeter.ts --bundle --outfile=greeter.min.js"
+  }
+}
